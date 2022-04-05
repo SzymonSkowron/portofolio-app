@@ -38,11 +38,14 @@
     padding: 9px 10px;
 }
 
+.home__header__nav{
+    padding-right: 142px;
+    padding-top: 34px;
+}
+
 .home__header__nav ul{
     display: flex;
     font-size: 18px;
-    padding-right: 142px;
-    padding-top: 34px;
     color: red;
 }
 
@@ -58,4 +61,18 @@
 .home__header__nav ul li a{
     text-decoration: none;
     color: var(--ligthblack-main-text-color)
+}
+
+.home__header__description{
+    font-size: 38px;
+    width: 674px;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    padding-top: 219px;
+    padding-right: 275px;
+
+}
+
+.home__header__description p{
+
 }

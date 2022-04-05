@@ -16,29 +16,33 @@ function HomeHeader() {
                 <div className="home__header">
             <div className="home__header__log">
                 <ul>
-                    <li><Link to="/logowanie">Zaloguj</Link></li>
-                    <li><span><Link to="/rejestracja">Załóż konto</Link></span></li>
+                    <li><Link to="/Zaloguj">Zaloguj</Link></li>
+                    <li><span><Link to="/Załóż-konto">Załóż konto</Link></span></li>
                 </ul>
             </div>
             <div className="home__header__nav">
                 <nav>
                     <ul>
                         <li><span><Link to="/">Start</Link></span></li>
-                        <li><Link to="/O co chodzi?">O co chodzi?</Link></li>
-                        <li><Link to="/O nas">O nas</Link></li>
-                        <li><Link to="/Fundacja i oragnizacje">Fundacja i organizacje</Link></li>
+                        <li><Link to="/O-co-chodzi?">O co chodzi?</Link></li>
+                        <li><Link to="/O-nas">O nas</Link></li>
+                        <li><Link to="/Fundacja-i-oragnizacje">Fundacja i organizacje</Link></li>
                         <li><Link to="/Kontakt">Kontakt</Link></li>
                     </ul>
                 </nav>
             </div>
+                    <div className="home__header__description">
+                        <p><span>Zacznij pomagać!</span> Oddaj niechciane rzeczy w zaufane ręce</p>
+                    </div>
                 </div>
             </div>
             <Routes>
                 <Route path='/' element={<Home />}/>
-                <Route path='/logowanie' element={<Login />}/>
-                <Route path='/rejestracja' element={<Register />}/>
+                <Route path='/Zaloguj' element={<Login />}/>
+                <Route path='/Załóż-konto' element={<Register />}/>
             </Routes>
         </Router>
+
     );
 }
 
