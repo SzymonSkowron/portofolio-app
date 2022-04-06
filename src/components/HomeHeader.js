@@ -22,7 +22,7 @@ function HomeHeader() {
             <div className="home__header__log">
                 <ul>
                     <li><Link to="/Zaloguj">Zaloguj</Link></li>
-                    <li><span><Link to="/Załóż-konto">Załóż konto</Link></span></li>
+                    <li><span><Link to="/Zaloz-konto">Załóż konto</Link></span></li>
                 </ul>
             </div>
             <div className="home__header__nav">
@@ -31,7 +31,7 @@ function HomeHeader() {
                         <li><span><Link to="/">Start</Link></span></li>
                         <li><Link to="/O-co-chodzi?">O co chodzi?</Link></li>
                         <li><Link to="/O-nas">O nas</Link></li>
-                        <li><Link to="/Fundacja-i-oragnizacje">Fundacja i organizacje</Link></li>
+                        <li><Link to="/Fundacja-i-organizacje">Fundacja i organizacje</Link></li>
                         <li><Link to="/Kontakt">Kontakt</Link></li>
                     </ul>
                 </nav>
@@ -47,7 +47,7 @@ function HomeHeader() {
                             <p><Link to="/Oddaj-rzeczy"><span>Oddaj</span> rzeczy</Link></p>
                         </div>
                         <div className="home__header__description__things__box2">
-                            <p><Link to="/Zorganizuj-zbiórkę"><span>Zorganizuj</span> zbiórkę</Link></p>
+                            <p><Link to="/Zorganizuj-zbiorke"><span>Zorganizuj</span> zbiórkę</Link></p>
                         </div>
                     </div>
                 </div>
@@ -55,13 +55,13 @@ function HomeHeader() {
             <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path='/Zaloguj' element={<Login />}/>
-                <Route path='/Załóż-konto   ' element={<Register />}/>
+                <Route path='/Zaloz-konto' element={<Register />}/>
                 <Route path='/O-co-chodzi' element={<OCoChodzi />}/>
                 <Route path='/O-nas' element={<ONas />}/>
                 <Route path='/Fundacja-i-organizacje' element={<FundacjaIOrganizacje />}/>
                 <Route path='/Kontakt' element={<Kontakt />}/>
                 <Route path='/Oddaj-rzeczy' element={<Login />}/>
-                <Route path='/Zorganizuj-zbiórkę' element={<Login />}/>
+                <Route path='/Zorganizuj-zbiorke' element={<Login />}/>
             </Routes>
         </Router>
     );

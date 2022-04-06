@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ZorganizujZbiórkę = () => {
+const ZorganizujZbiorke = () => {
     return (
         <div>
             Zorganizuj Zbiórkę
@@ -8,4 +8,4 @@ const ZorganizujZbiórkę = () => {
     );
 };
 
-export default ZorganizujZbiórkę;
+export default ZorganizujZbiorke;
