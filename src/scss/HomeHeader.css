@@ -1,3 +1,6 @@
+@import "settings/colors.css";
+@import "settings/fonts.css";
+
 .home__header__container{
     width: 1900px;
 }
@@ -11,26 +14,25 @@
     float: right;
 }
 
+.home__header__log{
+    padding-right: 152px;
+    padding-top: 46px;
+}
+
 .home__header__log ul{
     display: flex;
     font-size: 14px;
-    padding-right: 152px;
-    padding-top: 46px;
     justify-content: right;
-    color: var(--ligthblack-main-text-color)
 }
 
 .home__header__log ul li{
     margin-left: 30px;
 }
 
-.home__header__log ul li span{
-    border: 1px solid black;
-}
-
 .home__header__log ul li a{
     text-decoration: none;
     color: var(--grey-login);
+    font-family: var(--font-base);
 }
 
 .home__header__log ul li span{
@@ -46,7 +48,7 @@
 .home__header__nav ul{
     display: flex;
     font-size: 18px;
-    color: red;
+    justify-content: right;
 }
 
 .home__header__nav ul li{
@@ -60,19 +62,65 @@
 
 .home__header__nav ul li a{
     text-decoration: none;
-    color: var(--ligthblack-main-text-color)
+    color: var(--ligthblack-main-text-color);
+    font-family: var(--font-base);
 }
 
 .home__header__description{
     font-size: 38px;
-    width: 674px;
-    text-align: center;
-    flex-wrap: wrap-reverse;
+    width: 710px;
     padding-top: 219px;
     padding-right: 275px;
-
 }
 
 .home__header__description p{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: var(--font-base);
 }
+
+.home__header__description p span {
+padding-bottom: 15px;
+}
+
+.home__header__description__svg{
+    padding-top: 25px;
+    padding-left: 249px;
+    padding-bottom: 78px;
+}
+
+.home__header__description__things{
+    font-size: 36px;
+    display: flex;
+    width: 710px;
+    padding-left: 25px;
+    justify-content: space-around;
+}
+
+.home__header__description__things p{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+
+
+.home__header__description__things p a{
+    text-decoration: none;
+    font-family: var(--font-base);
+    color: var(--ligthblack-main-text-color);
+    font-weight: 300;
+}
+
+.home__header__description__things__box1 p{
+    width: 124px;
+    padding: 13px 93px;
+}
+
+.home__header__description__things__box2 p{
+    width: 208px;
+    padding: 13px 51px;
+}
+

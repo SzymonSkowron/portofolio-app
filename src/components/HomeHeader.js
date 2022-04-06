@@ -1,9 +1,14 @@
 import React from "react";
 import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
-import img from "../assets/images/Home-Hero-Image.jpg"
+import img from "../assets/images/Home-Hero-Image.jpg";
+import svg from "../assets/svg/Decoration.svg";
 import Home from "./Home";
 import Login from "./Login";
 import Register from "./Register";
+import OCoChodzi from "./O-co-chodzi";
+import ONas from "./O-nas";
+import FundacjaIOrganizacje from "./Fundacja-i-organizacje";
+import Kontakt from "./Kontakt";
 
 
 function HomeHeader() {
@@ -34,15 +39,31 @@ function HomeHeader() {
                     <div className="home__header__description">
                         <p><span>Zacznij pomagać!</span> Oddaj niechciane rzeczy w zaufane ręce</p>
                     </div>
+                    <div className="home__header__description__svg">
+                        <img src={svg}/>
+                    </div>
+                    <div className="home__header__description__things">
+                        <div className="home__header__description__things__box1">
+                            <p><Link to="/Oddaj-rzeczy"><span>Oddaj</span> rzeczy</Link></p>
+                        </div>
+                        <div className="home__header__description__things__box2">
+                            <p><Link to="/Zorganizuj-zbiórkę"><span>Zorganizuj</span> zbiórkę</Link></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path='/Zaloguj' element={<Login />}/>
-                <Route path='/Załóż-konto' element={<Register />}/>
+                <Route path='/Załóż-konto   ' element={<Register />}/>
+                <Route path='/O-co-chodzi' element={<OCoChodzi />}/>
+                <Route path='/O-nas' element={<ONas />}/>
+                <Route path='/Fundacja-i-organizacje' element={<FundacjaIOrganizacje />}/>
+                <Route path='/Kontakt' element={<Kontakt />}/>
+                <Route path='/Oddaj-rzeczy' element={<Login />}/>
+                <Route path='/Zorganizuj-zbiórkę' element={<Login />}/>
             </Routes>
         </Router>
-
     );
 }
 

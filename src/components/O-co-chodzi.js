@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Login(){
+const OCoChodzi = () => {
     return (
         <div>
-            Login
+            O co chodzi
         </div>
     );
 };
 
-export default Login;
+export default OCoChodzi;

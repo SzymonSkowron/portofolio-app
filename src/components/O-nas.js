@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Login(){
+const ONas = () => {
     return (
         <div>
-            Login
+            O nas
         </div>
     );
 };
 
-export default Login;
+export default ONas;
