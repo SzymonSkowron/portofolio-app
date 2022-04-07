@@ -1,16 +1,18 @@
 import React from "react";
 import './App.css'
 import HomeHeader from "./components/HomeHeader";
-import ONas from "./components/O-nas";
-import Kontakt from "./components/Kontakt";
+import HomeThreeColumns from "./components/HomeThreeColumns";
+
+
 
 
 function App() {
   return (
       <>
-      <HomeHeader />
+          <HomeHeader/>
+          <HomeThreeColumns/>
       </>
-        );
+          );
 }
 
 export default App;

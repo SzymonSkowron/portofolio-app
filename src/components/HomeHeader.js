@@ -40,7 +40,7 @@ function HomeHeader() {
                         <p><span>Zacznij pomagać!</span> Oddaj niechciane rzeczy w zaufane ręce</p>
                     </div>
                     <div className="home__header__description__svg">
-                        <img src={svg}/>
+                        <img src={svg} alt="decoration"/>
                     </div>
                     <div className="home__header__description__things">
                         <div className="home__header__description__things__box1">
