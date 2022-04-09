@@ -6,12 +6,6 @@
     height: 384px;
 }
 
-.HomeThreeColumns__container--img {
-    position: absolute;
-    z-index: -1;
-
-}
-
 .HomeThreeColumns{
     display: flex;
     text-align: center;
@@ -42,6 +36,6 @@
 .HomeColumn__3--Description{
     width: 334px;
     font-size: 16px;
-    font-family: var(--font-alt);
+    font-family: var(--font-base);
     font-weight: 300;
 }

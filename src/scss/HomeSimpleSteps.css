@@ -1,0 +1,83 @@
+@import "settings/colors.css";
+@import "settings/fonts.css";
+
+.HomeSimpleSteps__container{
+    width: 1900px;
+    height: 624px;
+}
+
+.HomeSimpleSteps__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-base);
+}
+
+.HomeSimpleSteps__content--Title{
+    font-size: 38px;
+    padding-top: 55px;
+}
+
+.HomeSimpleSteps__content--Decoration{
+    padding-top: 40px;
+    padding-bottom: 41px;
+}
+
+.HomeSimpleSteps__content__article {
+    width: 1900px;
+    height: 325px;
+    background-color: var(--ligthgray-article);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+
+.HomeSimpleSteps__content__article--shirt,
+.HomeSimpleSteps__content__article--bag,
+.HomeSimpleSteps__content__article--loop,
+.HomeSimpleSteps__content__article--return {
+    width: 150px;
+    color: var(--ligthblack-main-text-color);
+    font-size: 18px;
+    padding: 73px 108px 0 108px;
+}
+
+.HomeSimpleSteps__content__article--shirt img,
+.HomeSimpleSteps__content__article--bag img,
+.HomeSimpleSteps__content__article--loop img,
+.HomeSimpleSteps__content__article--return img{
+    padding-bottom: 10px;
+}
+
+.HomeSimpleSteps__content__article--shirt hr,
+.HomeSimpleSteps__content__article--bag hr,
+.HomeSimpleSteps__content__article--loop hr,
+.HomeSimpleSteps__content__article--return hr{
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.HomeSimpleSteps__content__article--shirt p:last-child,
+.HomeSimpleSteps__content__article--bag p:last-child,
+.HomeSimpleSteps__content__article--loop p:last-child,
+.HomeSimpleSteps__content__article--return p:last-child{
+   font-size: 16px;
+}
+
+.HomeSimpleSteps__content--give{
+    width: 124px;
+    font-size: 36px;
+    border: 1px solid black;
+    padding: 13px 93px;
+    text-align: center;
+}
+
+.HomeSimpleSteps__content--give a{
+    text-decoration: none;
+    color: var(--ligthblack-main-text-color);
+    text-transform: uppercase;
+    font-weight: 300;
+}
