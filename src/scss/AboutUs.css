@@ -1,0 +1,49 @@
+@import "settings/fonts.css";
+@import "settings/colors.css";
+
+.AboutUs__container{
+    display: flex;
+    padding-top: 93px;
+}
+
+.AboutUs__content{
+    width: 958px;
+    text-align: center;
+    background-color: var(--ligthgray-article);
+}
+
+.AboutUs__content--title{
+    padding-top: 186px;
+    padding-bottom: 40px;
+    font-size: 38px;
+    font-family: var(--font-base);
+    color: var(--ligthblack-main-text-color);
+
+}
+
+.AboutUs__content--decoration{
+    padding-bottom: 55px;
+}
+
+.AboutUs__content--description{
+    font-size: 30px;
+    width: 656px;
+    height: 208px;
+    padding-bottom: 40px;
+    display: inline-block;
+    font-family: var(--font-base);
+    color: var(--ligthblack-main-text-color);
+    line-height: 2.5rem;
+}
+
+.AboutUs__content--signature{
+    margin: auto;
+    width: 656px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.AboutUs__img{
+    width: 942px;
+    height: 935px;
+}

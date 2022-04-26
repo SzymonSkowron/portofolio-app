@@ -3,11 +3,14 @@ import background from '../assets/images/3-Columns-Background.png'
 
 function HomeThreeColumns() {
     return (
-        <div className="HomeThreeColumns__container">
-            <div className='HomeThreeColumns__container--img' style={{
-                backgroundImage: `url(${background})`,
-                height: '43vh'
-            }}>
+        <section className="HomeThreeColumns__container">
+            <div
+                className='HomeThreeColumns__container--img'
+                style={{
+                    backgroundImage: `url(${background})`,
+                    height: '43vh'
+                }}
+            >
                 <div className="HomeThreeColumns">
                     <div className="HomeColumn__1">
                         <div className='HomeColumn__1--Number'>
@@ -17,8 +20,10 @@ function HomeThreeColumns() {
                             <p>Oddanych worków</p>
                         </div>
                         <div className='HomeColumn__1--Description'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
-                                elementuma. Aliquam erat volutpat.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
+                                elementuma. Aliquam erat volutpat.
+                            </p>
                         </div>
                     </div>
                     <div className="HomeColumn__2">
@@ -29,8 +34,10 @@ function HomeThreeColumns() {
                             <p>Wspartych organizacji</p>
                         </div>
                         <div className='HomeColumn__2--Description'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
-                                elementuma. Aliquam erat volutpat.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
+                                elementuma. Aliquam erat volutpat.
+                            </p>
                         </div>
                     </div>
                     <div className="HomeColumn__3">
@@ -41,13 +48,15 @@ function HomeThreeColumns() {
                             <p>Zorganizowanych zbiórek</p>
                         </div>
                         <div className='HomeColumn__3--Description'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
-                                elementuma. Aliquam erat volutpat.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra
+                                elementuma. Aliquam erat volutpat.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
