@@ -31,8 +31,7 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin-bottom: 48px;
-
+    margin-bottom: 35px;
 }
 
 .HomeSimpleSteps__content__article--shirt,
@@ -80,4 +79,5 @@
     color: var(--ligthblack-main-text-color);
     text-transform: uppercase;
     font-weight: 300;
+
 }
