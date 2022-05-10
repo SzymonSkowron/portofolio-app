@@ -43,7 +43,8 @@
     justify-content: flex-end;
 }
 
-.AboutUs__img{
+.AboutUs__img img{
     width: 942px;
     height: 935px;
+    object-fit: cover;
 }

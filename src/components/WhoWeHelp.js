@@ -32,6 +32,43 @@ const WhoWeHelp = () => {
                         </p>
                     </div>
                 </div>
+                <div className="WhoWeHelp__foundations">
+                    <div className="WhoWeHelp__foundations--health">
+                        <p className="WhoWeHelp__foundations--title">
+                            Fundacja "Dbam o Zdrowie"
+                        </p>
+                        <p className="WhoWeHelp__foundations--mission">
+                            Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.
+                        </p>
+                        <p className="WhoWeHelp__foundations--whatGive">
+                            ubrania, jedzenie, sprzet AGD, meble, zabawki
+                        </p>
+                        <hr/>
+                    </div>
+                    <div className="WhoWeHelp__foundations--kids">
+                        <p className="WhoWeHelp__foundations--title">
+                            Fundacja "Dla dzieci"
+                        </p>
+                        <p className="WhoWeHelp__foundations--mission">
+                            Cel i misja: Pomoc dzieciom z ubogich rodzin.
+                        </p>
+                        <p className="WhoWeHelp__foundations--whatGive">
+                            ubrania, meble, zabawki
+                        </p>
+                        <hr/>
+                    </div>
+                    <div className="WhoWeHelp__foundations--home">
+                        <p className="WhoWeHelp__foundations--title">
+                            Fundacja "Bez domu"
+                        </p>
+                        <p className="WhoWeHelp__foundations--mission">
+                            Cel i misja: Pomoc dla osób nie posiadajacych miejsa zamieszkania.
+                        </p>
+                        <p className="WhoWeHelp__foundations--whatGive">
+                            ubrania, jedzenie, ciepłe koce
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     );
